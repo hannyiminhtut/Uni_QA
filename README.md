@@ -2,7 +2,7 @@
 
 UIT Compass is a student-built university question-answering application. It helps students explore UIT academic regulations and selected general university information, with answers in English, Burmese, or a natural mix of both.
 
-**Website:** [UIT Compass](https://uit-compass.uit-students.workers.dev/)
+**Website:** [UIT Compass](https://uit-compass.uit-students.workers.dev/) # Please use vpn to access the website
 
 This guide explains how the project was developed, from preparing documents to deploying a grounded AI chat on Cloudflare. Other developers can adapt these steps to their own institutions. Answers support understanding; official academic decisions and current admissions requirements should be confirmed with UIT.
 
