@@ -1,0 +1,40 @@
+{
+  "sourceId": "UIT-GENERAL-001",
+  "version": "UIT-GENERAL-v1.0",
+  "title": "UIT general information supplied by project owner",
+  "collectedDate": "2026-11-08",
+  "records": [
+    {
+      "section": "FAQ-HISTORY",
+      "title": "History and founding dates",
+      "verification": "Supplied by project owner; official FAQ could not be retrieved on 2026-11-08.",
+      "caution": "Distinguish UIT establishment on 3 December 2012 from renaming on 15 April 2015. The 1971 date refers to the UCC predecessor in UCSY history, not the separate establishment of UIT.",
+      "text": "The University of Computer Studies, Yangon was initially known as UCC, when it was established in 1971 but it changed into the Institute of Computer Science and Technology (ICST) in 1988. On 1st July, 1998, it became the University of Computer Studies, Yangon. There are currently altogether 25 Computer Universities around the country. The University of Computer Studies (Bahan Campus) was separately established on 3rd December, 2012, as the Center of Excellence to produce the competent computer professionals and specialists who will become invaluable human resources in ICT sector. The University was officially renamed the University of Information Technology (UIT) on 15th April, 2015.",
+      "url": null
+    },
+    {
+      "section": "FAQ-CONTACT",
+      "title": "University contact information",
+      "verification": "Address and telephone numbers corroborated against the official UIT homepage search result on 2026-11-08. Email and fax supplied by project owner; email was obscured in retrieved website text.",
+      "caution": "Contact information is a dated snapshot; confirm with the university if a number or email does not work.",
+      "text": "University of Information Technology\nParami Road, Hlaing Campus\nYangon\nThe Republic of the Union of Myanmar\nPhone: +95-1-9664254, +95-775994221, +95-774152166\nFax: +95-1-9664250\nEmail: contact@uit.edu.mm",
+      "url": "https://www.uit.edu.mm/"
+    },
+    {
+      "section": "FAQ-ADMISSIONS",
+      "title": "Application requirements in supplied FAQ",
+      "verification": "Supplied by project owner; not verified for the current intake.",
+      "caution": "Always describe the 450 marks, November timing and document checklist as information in the supplied undated FAQ, not confirmed current admission policy. Tell the student to confirm the current intake requirements with UIT. Do not promise eligibility or admission.",
+      "text": "The students are to get (at least 450 total marks) in the Matriculation Examination to apply the UIT. The candidates from the whole country are applicable to join this University. The time to join this university is in November. The basic requirements are:\n- 4 Photographs of Applicant\n- Copies and Original of NRC Information of Applicant and Parents-copy\n- Copy and Original of Matriculation Exam Mark Receipt\n- Letter of recommendation of Police Station\n- Letter of recommendation of quarter",
+      "url": null
+    },
+    {
+      "section": "FAQ-PROGRAMMES",
+      "title": "University programmes and role",
+      "verification": "Supplied by project owner; counts and programme availability are not verified current.",
+      "caution": "Attribute the approximately 200 graduates and programme list to the supplied text; do not claim these are current confirmed figures or offerings.",
+      "text": "The University of Information Technology produces about 200 Undergraduate students every year. It also offers Undergraduate and Post-graduate courses for Bachelor, Diploma, Master?s and Doctorate level students in a wide range of subject areas: software engineering, knowledge engineering, high performance computing, business information system, communication and networking, embedded system and computer system technology. UIT is Myanmar?s main center of research in ICT that aim to promote the productivity and the standard of living of the nation.",
+      "url": null
+    }
+  ]
+}

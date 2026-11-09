@@ -1,0 +1,22 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "uit-compass",
+  "main": "cloudflare/worker.js",
+  "compatibility_date": "2026-11-08",
+  "workers_dev": true,
+  "assets": {
+    "directory": "./.cloudflare/frontend/out",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "durable_objects": { "bindings": [{ "name": "QUOTA", "class_name": "QuotaStore" }] },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["QuotaStore"] }],
+  "vars": {
+    "GEMINI_MODEL": "gemini-3.1-flash-lite",
+    "APP_REQUESTS_PER_MINUTE": "3",
+    "APP_REQUESTS_PER_DAY": "100",
+    "SESSION_REQUESTS_PER_MINUTE": "2",
+    "SESSION_REQUESTS_PER_DAY": "20"
+  },
+  "observability": { "enabled": false }
+}

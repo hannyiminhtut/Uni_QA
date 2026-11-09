@@ -1,0 +1,34 @@
+{
+  "name": "uit-academic-qa",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build --webpack",
+    "test:api": "node scripts/test-gemini.mjs",
+    "check": "next build --webpack",
+    "test:backend": "node scripts/test-backend.mjs",
+    "start": "next start -p 3000",
+    "test:regulations": "node scripts/test-regulations.mjs",
+    "test:answering": "node scripts/test-answering.mjs",
+    "test:client": "node scripts/test-chat-client.mjs",
+    "test:quota": "node scripts/test-quota.mjs",
+    "test:knowledge": "node scripts/test-knowledge.mjs",
+    "test:format": "node scripts/test-answer-format.mjs",
+    "build:cloudflare": "node scripts/build-cloudflare.mjs",
+    "preview:cloudflare": "wrangler dev --local",
+    "test:cloudflare": "node scripts/test-cloudflare.mjs",
+    "deploy:cloudflare": "npm run build:cloudflare && wrangler deploy"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "next": "^16.2.11",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "wrangler": "^4.158.0"
+  }
+}
